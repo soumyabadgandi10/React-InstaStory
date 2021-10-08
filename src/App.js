@@ -1,6 +1,6 @@
 import './App.css';
 import Home from "./Components/Home";
-import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import StoriesComponent from './Components/StoriesComponent';
 
 
