@@ -1,4 +1,18 @@
 const StoriesData ={
+    tech: [
+    {
+        type: "imagePost",
+        backgroundImageUrl: "https://res.cloudinary.com/s29101999/image/upload/v1634219981/engineer-g5495d9637_640_qvh2mx.jpg",
+        caption: "",
+        captionColor: "", 
+    },
+    {
+        type: "imagePost",
+        backgroundImageUrl: "https://res.cloudinary.com/s29101999/image/upload/v1634219961/engineer-g6829fb370_640_gb6u1b.jpg",
+        caption: "",
+        captionColor: "",
+    },
+    ],
     food: [
     {
         type: "imageCaptionPost",
@@ -12,8 +26,8 @@ const StoriesData ={
         caption: "Yummy",
         captionColor: "white",
     },
-],
-entertainment: [
+    ],
+    interest: [
     {
         type: "textImagePost",
         postImageUrl: "https://res.cloudinary.com/s29101999/image/upload/v1633680598/portrait-geabf54fbc_640_tini2g.jpg",

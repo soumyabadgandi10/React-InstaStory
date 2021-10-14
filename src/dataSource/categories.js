@@ -12,7 +12,7 @@ const categoryItems = [
         iconName: "restaurant",
     },
     {
-        name: "Entertainment",
+        name: "Interest",
         iconName: "live_tv",
      },
      {
