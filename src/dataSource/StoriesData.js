@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const StoriesData ={
     tech: [
     {
@@ -14,35 +15,52 @@ const StoriesData ={
     },
     ],
     food: [
+=======
+const StoriesData = {
+  food: [
+>>>>>>> 4290e8b5cf40beedb219a973522b0864c24d8dd7
     {
-        type: "imageCaptionPost",
-        backgroundImageUrl: "https://res.cloudinary.com/s29101999/image/upload/v1633161384/pancakes-gfb5e03102_640_n7rud2.jpg",
-        caption: "Delicious",
-        captionColor: "white",
+      backgroundImageUrl:
+        "https://res.cloudinary.com/s29101999/image/upload/v1633161384/pancakes-gfb5e03102_640_n7rud2.jpg",
+      title: "Delicious",
+      captionColor: "white",
+      caption: null,
+      backgroundColor: null,
     },
     {
-        type: "imageCaptionPost",
-        backgroundImageUrl: "https://res.cloudinary.com/s29101999/image/upload/v1633631184/pastry-g11c2f7f15_640_ecy6sj.jpg",
-        caption: "Yummy",
-        captionColor: "white",
+      backgroundImageUrl:
+        "https://res.cloudinary.com/s29101999/image/upload/v1633631184/pastry-g11c2f7f15_640_ecy6sj.jpg",
+      title: "Yummy",
+      captionColor: "white",
+      caption: null,
+      backgroundColor: null,
     },
+<<<<<<< HEAD
     ],
     interest: [
+=======
+  ],
+  entertainment: [
+>>>>>>> 4290e8b5cf40beedb219a973522b0864c24d8dd7
     {
-        type: "textImagePost",
-        postImageUrl: "https://res.cloudinary.com/s29101999/image/upload/v1633680598/portrait-geabf54fbc_640_tini2g.jpg",
-        title: "History of headphones",
-        text: "Nathaniel Baldwin of Utah in 1910 invented a prototype telephone headset due to his inability to hear sermons during Sunday service. He offered it for testing to the US Navy, which promptly ordered 100 from Baldwin.",
-        backgroundColor: "lightgreen",
+      backgroundImageUrl:
+        "https://res.cloudinary.com/s29101999/image/upload/v1633680598/portrait-geabf54fbc_640_tini2g.jpg",
+      title: "History of headphones",
+      caption:
+        "Nathaniel Baldwin of Utah in 1910 invented a prototype telephone headset due to his inability to hear sermons during Sunday service. He offered it for testing to the US Navy, which promptly ordered 100 from Baldwin.",
+      backgroundColor: "lightgreen",
+      captionColor: null,
     },
     {
-        type: "textImagePost",
-        postImageUrl: "https://res.cloudinary.com/s29101999/image/upload/v1633681258/guitar-g9e91884ca_640_b7lezx.jpg",
-        title: "How Guitars are made..",
-        text: "The majority of material comprising a modern guitar is wood. Typical woods used for the body and neck of a guitar today are Mahogany, Ash, Maple, Basswood, Agathis, Alder, Poplar, Walnut, Spruce, and holly.",
-        backgroundColor: "pink",
-    }, 
-]
+      backgroundImageUrl:
+        "https://res.cloudinary.com/s29101999/image/upload/v1633681258/guitar-g9e91884ca_640_b7lezx.jpg",
+      title: "How Guitars are made..",
+      caption:
+        "The majority of material comprising a modern guitar is wood. Typical woods used for the body and neck of a guitar today are Mahogany, Ash, Maple, Basswood, Agathis, Alder, Poplar, Walnut, Spruce, and holly.",
+      backgroundColor: "pink",
+      captionColor: null,
+    },
+  ],
 };
 
 export default StoriesData;
