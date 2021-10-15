@@ -13,40 +13,41 @@ export default function StoriesComponent() {
   const categoryName = match.params.categoryName;
   const stories = StoriesData[categoryName].map(
     (
-      { backgroundImageUrl, title, captionColor, caption, backgroundColor },
-      index
+      { backgroundImageUrl, title, captionColor, caption, backgroundColor },index
     ) => {
       return {
         content: ({ action, isPaused }) => {
           return (
             <div
               style={{
-                width: "100%",
-                backgroundColor:
-                  backgroundColor === null ? null : backgroundColor,
+                width: "100vw",
+                backgroundColor: backgroundColor === null ? null : backgroundColor,
                 height: "100vh",
-              }}
-            >
+              }}>
               <h1
                 style={{
-                  fontSize: 22,
+                  fontSize: 30,
                   color: captionColor === null ? null : "white",
-                }}
-              >
+                }}>
                 {title}
               </h1>
-              <img src={backgroundImageUrl} width="50%" height="80%" />
-              <p
-                style={{
+              <div style={
+                    {
+                    display: "inline",
+                    width: "50vw",
+                    height: "50vh",
+                    }}>
+                  <img src={backgroundImageUrl} />
+                  
+                </div>
+                <div style={{
                   color: "white",
-                  fontSize: 14,
+                  fontSize: 20,
                   textAlign: "center",
-                  width: "50%",
                   alignSelf: "center",
-                }}
-              >
-                {caption}
-              </p>
+                  }}>
+                  <p>{caption}</p>
+                </div>
             </div>
           );
         },

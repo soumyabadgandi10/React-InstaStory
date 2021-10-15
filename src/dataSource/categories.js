@@ -28,7 +28,7 @@ const categoryItems = [
         iconName: "school",
     },
     {
-        name: "Gaming",
+        name: "Sports",
         iconName: "videogame_asset",
     },
     {
